@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
+import SideBar from "../components/SideBar"
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <div>Home</div>
   )
 }
 
