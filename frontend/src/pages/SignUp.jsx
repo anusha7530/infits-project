@@ -32,7 +32,6 @@ const SignUp = () => {
           </div>
           <div className="mb-5">
             <label
-              for="password"
               className="block mb-2 text-sm font-bold text-gray-900"
             >
               Password
@@ -51,7 +50,6 @@ const SignUp = () => {
           </div>
           <div className="mb-5">
             <label
-              for="repeat-password"
               className="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
             >
               Confirm password
@@ -73,7 +71,7 @@ const SignUp = () => {
               type="submit"
               className="text-white bg-[#282828] hover:bg-gray-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
             >
-              Sign Up
+              SIGN UP
             </button>
             <span className="">OR</span>
             <div className="flex flex-row gap-9 text-2xl text-[#282828]">

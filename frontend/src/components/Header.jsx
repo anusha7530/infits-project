@@ -16,9 +16,9 @@ const Header = () => {
         <Link to="/">CONTACT US</Link>
         <Link to="/">NEWS</Link>
         <IoIosNotifications className="hidden text-xl md:block" />
-        <Link to="/sign-up">
+        <Link to="/sign-in">
           <button className="sm:outline-none md:outline-[#BD5AE4] hover:bg-gradient-to-r from-[#d999f3] via-[#d999f3]  to-[#979efe] hover:outline-none rounded-lg md:p-2 font-medium " >
-            Sign Up
+            Sign In
           </button>
         </Link>
       </div>
