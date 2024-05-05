@@ -6,7 +6,7 @@ import { ImProfile } from "react-icons/im";
 
 const SideBar = () => {
   return (
-    <div className="w-full border-r-2 h-full">
+    <div className="w-full sm:border-r-2 h-full">
       <div className="flex flex-col gap-1 py-4 px-1 text-lg">
         <Link
           to="/?tab=dash"
